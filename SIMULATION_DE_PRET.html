@@ -20,14 +20,11 @@
 
 </head>
 <body>
-
 <!-- Header+Menu Model2 Version5 Starts -->
-<nav class="navbar navbar-inverse text-Center">
+<nav id="header-menu" class="header-menu-m1-v1-1 navbar navbar-inverse text-Center navbar-default custom navbar-fixed-top" role="navigation">
     <div class="container navrow">
-        <a href="ACCUEIL.html"><img src="images/icons/Logo-(retina).png" class="imgLogo lightSpeedIn" alt="logo"></a>
         <div class="navbar-header">
             <button type="button" id="nav-icon3" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-
                 <span></span>
                 <span></span>
                 <span></span>
@@ -35,20 +32,10 @@
             </button>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
-
             <ul class="nav navbar-nav">
                 <li class="active"><a href="ACCUEIL.html" >Accueil</a></li>
                 <li><a href="LAGENCE.html">L'agence</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="MENTIONS_LEGALES.html">Nos Biens
-                        <span class="glyphicon glyphicon-chevron-down"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="LISTING_BIEN.html">LISTING</a></li>
-                        <li><a href="404.html">LOCATION</a></li>
-                        <li><a href="ESTIMATION.html" >VENTE</a></li>
-                        <li><a href="MENTIONS_LEGALES.html">MENTIONS LEGALES</a></li>
-                    </ul>
-                </li>
+                <li><a href="MENTIONS_LEGALES.html">Nos Biens</a></li>
                 <li><a href="RECHERCHE.html"><b>Que recherchez-vous ?</b></a></li>
                 <li><a href="FICHE_BIEN.html">Confiez-nous votre bien</a></li>
                 <li><a href="SIMULATION_DE_PRET.html">Simulation de prêt</a></li>
@@ -59,27 +46,31 @@
 </nav><!--navbar-->
 <!-- Header+Menu Model2 Version5 Ends -->
 <!-- Home Slider Model2 Version1 Starts -->
-<section id="home-slider" class=" home-slider-m2-v1">
-    <div class="mainheader">
-        <div class="container-fluid header">
-            <div class="ourNewCarousel owl-carousel ">
-                <div class="item">
-                    <img src="images/S01.jpg" >
-                </div>
-                <div class="item">
-                    <img src="images/S02.jpg" >
-                </div>
-                <div class="item">
-                    <img src="images/S03.jpg" >
-                </div>
-            </div><!-- owl-carousel -->
-        </div><!-- header -->
-    </div><!-- mainheader -->
+<section >
+    <div class=" mainheader">
+        <img src="images/main-image.png" alt="">
+        <a href="ACCUEIL.html"><img  src="images/icons/Logo-m.png" alt="logo"></a>
+    </div>
+    <div class="container-fluid nav2bar">
+        <div class="navbarNew">
+            <nav class="navbar  text-center">
+                <ul class="nav navbar-nav nav2">
+                    <li class="active"><a href="#">Maisons de villages / villes</a></li>
+                    <li><a href="#">Villas</a></li>
+                    <li><a href="#">Mas, bastides</a></li>
+                    <li><a href="#">Appartements</a></li>
+                    <li><a href="#">Terrains</a></li>
+                    <li><a href="#">Divers</a></li>
+                </ul>
+                <button type="submit" class="btn btnNav2"><a href="#">LOCATION</a></button>
+            </nav>
+        </div>
+    </div>
 </section>
 <!-- Home Slider Model2 Version1 Ends -->
 
 <!--**********************************************************************************************************************-->
-<div class="container-fluid page6">
+<div class="container-fluid content">
     <!-- Title Block Model1 Version1-2 Starts -->
     <header id="main-header"  class="container header-section mar-top20">
         <div class="row section-bg">
@@ -87,7 +78,7 @@
                 <div class="col-sm-12 pad-left0 pad-right0">
                     <div class="title-block title-block-m1-v1-2 title-lg title-block-clr row-to-table-height text-center">
                         <div class="title-text-block text-center">
-                            <h1 class="Coups_de_Coeur">SIMULATION DE PRET</h1>
+                            <h1 class="Coups_de_Coeur">Simulez votre prêt immobilier</h1>
                         </div>
                     </div>
                 </div><!-- /.row-col -->
@@ -95,7 +86,26 @@
         </div><!-- /.row -->
     </header>
     <!-- Title Block Model1 Version1-2 Ends -->
-
+    <!-- Agency Model6 Starts -->
+    <section id="agency" class="agency-m8 custom container marg-top18">
+        <div class="row section-bg" >
+            <div class="row col-sm-12 col-xs-12">
+                <div class="row marg-btm-5 agency-block">
+                    <!-- Agency Block Content Starts -->
+                    <div class="col-lg-12 col-md-12 agency-block-content vtop text-justify">
+                        <p class="Parce">
+                            <b> L'AGENCE DU VENTOUX vous propose un calculateur vous permettant de simuler votre emprunt immobilier en fonction de votre apport financier,
+                                de la durée du prêt ou de votre capacité mensuelle de remboursement. <br>
+                                <span style="color:#618c06;">Les informations obligatoires sont indiquées avec un astérisque (*).</span>
+                            </b>
+                        </p>
+                    </div>
+                    <!-- Agency Block Content Ends -->
+                </div><!--./row-col-->
+            </div><!--./row-inner-->
+        </div><!--./row-->
+    </section>
+    <!-- Agency Model6 Ends -->
     <!-- main content -->
     <div class="container mainContainer">
         <div class="row">
@@ -267,7 +277,7 @@
 <footer id="footer" class="footer-m2 container-fluid">
 
     <!-- Footer Top Links Block Starts -->
-    <div class="row footer-top-links-bg">
+    <div class=" text-center footer-top-links-bg">
         <div class="row-inner col-md-10 col-sm-10 col-xs-12 footer-top-links footer-top-links-clr">
             <ul>
                 <li>
@@ -289,7 +299,10 @@
                     <a href="#">Contact </a> <span>|</span>
                 </li>
                 <li>
-                    <a href="#">Mentions légales </a>
+                    <a href="#">Mentions légales </a> <span>|</span>
+                </li>
+                <li>
+                    <a href="#">NOS HONORAIRES </a>
                 </li>
             </ul>
         </div>
@@ -299,97 +312,23 @@
 
     <!-- Footer Contacts Partners Block Starts -->
     <div class="container-fluid rowcontainer">
-        <div class="row footer-contacts-partners-bg">
-            <div class="row-inner col-md-12 col-sm-12 col-xs-12 text-center">
+        <div class="container footer-contacts-partners-bg">
+            <div class="row col-md-12 col-sm-12 col-xs-12 text-center">
                 <div class="row-col footer-contacts-partners footer-block-inner-clr">
-                    <div class="col-md-12 col-sm-12 col-xs-12 text-center footer-contacts">
+                    <div class="col-md-8 col-sm-8 col-xs-12 text-left footer-contacts">
                         <p> <a href="#"><b>Real estate Lourmarin - AGENCE SUD LUBERON</b></a></p>
                         <p class="font-11"> Rue Henri de Savournin - 84160 Lourmarin (France) - Phone : 04.90.68.02.71 - Fax : 04.90.68.01.26</p>
-                        <button type="button" class="buttonCall" data-toggle="modal" data-target="#myModal"> <i class="fa circle fa-phone marg-right5"></i>Contacter l’agence</button>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 text-right footer-contacts">
+                        <button type="button" class="buttonCall" data-toggle="modal" data-target="#myModal"> <i class="fa fa-phone marg-right5"></i>Contacter l’agence</button>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Footer Contacts Partners Block Ends -->
     </div>
-    <!-- Footer Bottom Links Start -->
-    <div class="container-fluid rowcontainer">
-        <div class="container ">
-            <div class="row footer-btm-links-bg">
-                <div class="row-inner col-md-12 col-sm-12 col-xs-12 text-left">
-                    <div class="row-col  footer-btm-links footer-block-inner-clr">
-                        <div class="text-justify">
-                            <ul>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#" >Béziers (34500)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Villeneuve lès Béziers (34420)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Lamalou les Bains (34240)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Sérignan (34410)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Pézenas (34120)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#" >Béziers (34500)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Villeneuve lès Béziers (34420)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Lamalou les Bains (34240)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Sérignan (34410)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Pézenas (34120)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#" >Béziers (34500)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Villeneuve lès Béziers (34420)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Lamalou les Bains (34240)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Sérignan (34410)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Pézenas (34120)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#" >Béziers (34500)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Villeneuve lès Béziers (34420)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Lamalou les Bains (34240)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Sérignan (34410)</a>
-                                </li>
-                                <li class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                                    <a href="#">Pézenas (34120)</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer Bottom Links End -->
     <!-- adress bar -->
-    <div class="container-fluid rowcontainer">
+    <div class="container-fluid rowcontainer backlight">
         <div class="container adress">
             <div class="row text-center">
                 <p class="Villeneuve">Béziers (34500) - Villeneuve lès Béziers (34420) - Lamalou les Bains (34240) - Sérignan (34410) - Pézenas (34120) - Béziers (34500) - Villeneuve lès Béziers (34420) - Lamalou les Bains (34240) - Sérignan (34410) - Pézenas (34120)<br>
@@ -401,9 +340,9 @@
     <!-- Footer Copyright Block Starts -->
     <div class="container-fluid">
         <div class="container footer-copyright-block-bg">
-            <div class="row-inner col-md-12 col-sm-12 col-xs-12 text-center">
+            <div class="row-inner col-md-12 col-sm-12 col-xs-12 ">
                 <div class="row-col footer-copyright-block footer-block-inner-clr">
-                    <div class="col-md-9 col-sm-9 col-xs-12  text-center footer-copyright-info font-11 vtop" style="padding: 0;">
+                    <div class="col-md-9 col-sm-9 col-xs-12 footer-copyright-info font-11 vtop" style="padding:0">
                         <p>Plan du site - Mentions légales - Liens - Accès <br>
                             Site immobilier partenaire et réalisé par DMaisons Provence - Logiciel Immobilier &#169; Copyright 2011-2017</p>
                     </div>
@@ -430,7 +369,8 @@
 
 
 
-    <!-- jQuery -->
+
+<!-- jQuery -->
     <script src="js/jquery-3.1.1.min.js"></script>
      <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
