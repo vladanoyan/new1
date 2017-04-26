@@ -447,7 +447,6 @@
     .nav2>li>a:focus,.btnNav2>a:hover,.nav2>li>a:hover
     {
     background-color: rgba(255, 255, 255, 0.4)!important;
-    color: #fff!important;
     }
     @media (min-width: 992px) {
     .navbarNew {
@@ -475,7 +474,9 @@
     color: #ffffff ;
 
     }
-
+    .fon{
+        background-color: #fff;
+    }
     /*CONTENT CSS*/
     .content
     {

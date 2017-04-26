@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98e66d2-aa2b-4fc6-b03d-04a2d7d5e7ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HONORAIRES.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/change2.png" afterPath="$PROJECT_DIR$/images/change2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AgenceDesAugustins1267.iml" afterPath="$PROJECT_DIR$/.idea/AgenceDesAugustins1267.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ACCUEIL.html" afterPath="$PROJECT_DIR$/ACCUEIL.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTACT.html" afterPath="$PROJECT_DIR$/CONTACT.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESTIMATION.html" afterPath="$PROJECT_DIR$/ESTIMATION.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FICHE_BIEN.html" afterPath="$PROJECT_DIR$/FICHE_BIEN.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LAGENCE.html" afterPath="$PROJECT_DIR$/LAGENCE.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LISTING_BIEN.html" afterPath="$PROJECT_DIR$/LISTING_BIEN.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MENTIONS_LEGALES.html" afterPath="$PROJECT_DIR$/MENTIONS_LEGALES.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/POPUP_CONTACT_BIEN.html" afterPath="$PROJECT_DIR$/POPUP_CONTACT_BIEN.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RECHERCHE.html" afterPath="$PROJECT_DIR$/RECHERCHE.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SIMULATION_DE_PRET.html" afterPath="$PROJECT_DIR$/SIMULATION_DE_PRET.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/flexslider.custom.css" afterPath="$PROJECT_DIR$/css/flexslider.custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -41,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/RECHERCHE.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="482">
-              <caret line="106" column="31" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="106" selection-end-column="31" />
+              <caret line="106" column="31" lean-forward="false" selection-start-line="86" selection-start-column="3" selection-end-line="106" selection-end-column="31" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -59,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/ESTIMATION.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
-              <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+              <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -81,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LAGENCE.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LAGENCE.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LAGENCE.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="68" selection-end-column="41" />
+            <state relative-caret-position="222">
+              <caret line="22" column="140" lean-forward="false" selection-start-line="22" selection-start-column="140" selection-end-line="22" selection-end-column="140" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -97,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4199">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="408">
+              <caret line="477" column="30" lean-forward="false" selection-start-line="477" selection-start-column="30" selection-end-line="477" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -111,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/HONORAIRES.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -126,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/LISTING_BIEN.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="485">
-              <caret line="538" column="0" lean-forward="true" selection-start-line="538" selection-start-column="0" selection-end-line="538" selection-end-column="0" />
+              <caret line="538" column="0" lean-forward="false" selection-start-line="538" selection-start-column="0" selection-end-line="538" selection-end-column="0" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -174,7 +158,7 @@
         <entry file="file://$PROJECT_DIR$/FICHE_BIEN.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
-              <caret line="118" column="73" lean-forward="true" selection-start-line="118" selection-start-column="73" selection-end-line="118" selection-end-column="73" />
+              <caret line="118" column="73" lean-forward="false" selection-start-line="118" selection-start-column="73" selection-end-line="118" selection-end-column="73" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -214,6 +198,7 @@
       <find>lst-itm-dtl-reference</find>
       <find>staricon</find>
       <find>btnNav2</find>
+      <find>Nav2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -224,7 +209,6 @@
       <list>
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/ACCUEIL.html" />
-        <option value="$PROJECT_DIR$/LAGENCE.html" />
         <option value="$PROJECT_DIR$/LISTING_BIEN.html" />
         <option value="$PROJECT_DIR$/POPUP_CONTACT_BIEN.html" />
         <option value="$PROJECT_DIR$/CONTACT.html" />
@@ -237,6 +221,7 @@
         <option value="$PROJECT_DIR$/FICHE_BIEN.html" />
         <option value="$PROJECT_DIR$/HONORAIRES.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/LAGENCE.html" />
       </list>
     </option>
   </component>
@@ -317,12 +302,12 @@
       <workItem from="1492767833252" duration="4587000" />
       <workItem from="1492777871207" duration="11319000" />
       <workItem from="1493025404256" duration="10860000" />
-      <workItem from="1493103532664" duration="22174000" />
+      <workItem from="1493103532664" duration="24088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48940000" />
+    <option name="totallyTimeSpent" value="50854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,6 +326,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -351,7 +337,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -548,7 +533,7 @@
     <entry file="file://$PROJECT_DIR$/RECHERCHE.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
-          <caret line="106" column="31" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="106" selection-end-column="31" />
+          <caret line="106" column="31" lean-forward="false" selection-start-line="86" selection-start-column="3" selection-end-line="106" selection-end-column="31" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -591,20 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LAGENCE.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="68" selection-end-column="41" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -632,7 +603,7 @@
     <entry file="file://$PROJECT_DIR$/FICHE_BIEN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
-          <caret line="118" column="73" lean-forward="true" selection-start-line="118" selection-start-column="73" selection-end-line="118" selection-end-column="73" />
+          <caret line="118" column="73" lean-forward="false" selection-start-line="118" selection-start-column="73" selection-end-line="118" selection-end-column="73" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -646,23 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HONORAIRES.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LISTING_BIEN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
-          <caret line="538" column="0" lean-forward="true" selection-start-line="538" selection-start-column="0" selection-end-line="538" selection-end-column="0" />
+          <caret line="538" column="0" lean-forward="false" selection-start-line="538" selection-start-column="0" selection-end-line="538" selection-end-column="0" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -690,7 +648,7 @@
     <entry file="file://$PROJECT_DIR$/ESTIMATION.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -711,11 +669,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HONORAIRES.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4199">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="408">
+          <caret line="477" column="30" lean-forward="false" selection-start-line="477" selection-start-column="30" selection-end-line="477" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LAGENCE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="22" column="140" lean-forward="false" selection-start-line="22" selection-start-column="140" selection-end-line="22" selection-end-column="140" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
