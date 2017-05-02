@@ -435,6 +435,7 @@
     color: #fff !important;
     padding: 12px 30px !important;
     background-color: rgba(255, 255, 255, 0.102) !important;
+    text-transform: uppercase !important;
 
     }
 
@@ -549,14 +550,14 @@
     .Toutes_nos_annonces__ {
     font-size: 15px;
     font-family: "Roboto";
-    color: inherit;
+    color: black;
     line-height: 4.846;
     -moz-transform: matrix( 0.92103075644223,0,0,0.92110874200426,0,0);
     -webkit-transform: matrix( 0.92103075644223,0,0,0.92110874200426,0,0);
     -ms-transform: matrix( 0.92103075644223,0,0,0.92110874200426,0,0);
     color: #fff;
     }
-    .Toutes_nos_annonces__:hover
+    .Toutes_nos_annonces__:hover,.Toutes_nos_annonces__:active,.Toutes_nos_annonces__:focus
     {
     text-decoration: underline;
     color: #fff;
@@ -906,9 +907,9 @@
     }
 
     .buttonCall {
-    background-image: -moz-linear-gradient( 90deg, rgb(89,130,2) 0%, rgb(104,148,10) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(89,130,2) 0%, rgb(104,148,10) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(89,130,2) 0%, rgb(104,148,10) 100%);
+    background-image: -moz-linear-gradient( -90deg, rgb(31,69,129) 0%, rgb(54,92,169) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(31,69,129) 0%, rgb(54,92,169) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(31,69,129) 0%, rgb(54,92,169) 100%);
     box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.75);
     color: #FFF;
     width: 164px;
@@ -1034,6 +1035,7 @@
     text-align: left !important;
     margin-bottom: 10px !important;
     margin-top: 10px !important;
+    padding: 5px;
     }
     .myform-control:focus
     {
@@ -1430,10 +1432,6 @@
 
     /*--- Listing Item Btn Block---*/
 
-    .listing-m3 .listing-item-btn-block a {
-    width: 34px !important;
-
-    }
     .circle2
     {
     width: 22px;
@@ -1723,7 +1721,11 @@
     margin-bottom: 13px;
     margin-top: 13px;
     }
-
+    @media (min-width: 992px){
+    .contentList{
+        margin-left: 28px;
+    }
+    }
     /********************** Pagination Model3 Starts ************************************/
     /*----------------------------------------------------------------------------------*/
     /*-------------------- Pagination Model3 Content Starts -----------*/
@@ -2557,7 +2559,7 @@
     .batserach2:hover
     {
     color: #fff;
-    box-shadow: inset 0 0 0 #27496d, 0 4px 15px #193047;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 
     }
     @media (max-width: 1199px){
@@ -3104,8 +3106,8 @@
 
     .dpe-ges-block-m1-v1 a{
     border-radius: 0;
-    height: 35px;
-    width: 30px;
+    height: 34px;
+    width: 34px;
     position: relative;
     display: inline-block;
     padding: 0;
@@ -3361,7 +3363,7 @@
     /*page4 CSS RECHERCHE*/
 
     .backbtn {
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
     background-image: -moz-linear-gradient( 90deg, rgb(89,130,2) 0%, rgb(104,148,10) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(89,130,2) 0%, rgb(104,148,10) 100%);
@@ -3636,12 +3638,12 @@
     margin-left: 14px;
     margin-top: 6px;
     margin-bottom: 13px;
-    border-radius: 10px !important;
+    border-radius: 20px !important;
     }
     .batserach3:hover
     {
     color: #fff;
-    box-shadow: inset 0 0 0 #27496d, 0 4px 15px #193047;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 
     }
 
