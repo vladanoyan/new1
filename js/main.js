@@ -99,33 +99,33 @@ $('.flip-carousel').flipster({
 // /carousels
 
 // page scrolling nagitaion
-// $(window).scroll(function() {
-//     if ($(this).scrollTop() > 230){
-//         $(".page-tabbed-nav").addClass('nav-scrolled');
-//         $(".content-sections>section .first-section").addClass('scrolled');
-//     }
-//     else {
-//         $(".page-tabbed-nav").removeClass('nav-scrolled');
-//         $(".content-sections>section .first-section").removeClass('scrolled');
-//     }
-// });
-// $(window).scroll();
-// $(function() {
-//     $(document).on('click', '.tabbed-nav a, .title-link', function(event) {
-//         var $anchor = $(this);
-//         $('html, body').stop().animate({
-//             scrollTop: $($anchor.attr('href')).offset().top - 5
-//         }, 1500, 'easeInOutExpo');
-//         event.preventDefault();
-//     });
-// });
-// $( ".tabbed-nav a" ).click(function() {
-//     if ($(window).width() < 992){
-//         $('.tabbed-nav-trigger').toggleClass('clicked');
-//         $('.tabbed-nav').slideToggle(500, function () {
-//         });
-//     }
-// });
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 230){
+        $(".page-tabbed-nav").addClass('nav-scrolled');
+        $(".content-sections>section .first-section").addClass('scrolled');
+    }
+    else {
+        $(".page-tabbed-nav").removeClass('nav-scrolled');
+        $(".content-sections>section .first-section").removeClass('scrolled');
+    }
+});
+$(window).scroll();
+$(function() {
+    $(document).on('click', '.tabbed-nav a, .title-link', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top - 5
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+$( ".tabbed-nav a" ).click(function() {
+    if ($(window).width() < 992){
+        $('.tabbed-nav-trigger').toggleClass('clicked');
+        $('.tabbed-nav').slideToggle(500, function () {
+        });
+    }
+});
 // /page scrolling nagitaion
 
 // forms validation
@@ -144,3 +144,13 @@ $("#contact-page-form, #logiciel-page-form-1, #logiciel-page-form-2, #logiciel-p
     }
 });
 // /forms validation
+
+//IWS, depuis 19 ans, toujours un temps d’avance block
+
+    var countNumber = new Date().getFullYear();
+    countNumber=countNumber-1998;
+  document.getElementById("count").innerHTML= countNumber;
+
+//IWS, depuis 19 ans, toujours un temps d’avance block
+
+

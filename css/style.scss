@@ -49,6 +49,7 @@ $main-red: #c92127;
 $main-green: #509c20;
 $main-grey: #c1c1c1;
 $textgrey: #737373;
+$hrgrey: #737373;
 // /variables
 
 // general
@@ -69,7 +70,7 @@ h1 {
 .button {
     border: none;
     background: $main-red;
-    padding: 5px 30px;
+    padding: 7px 36px;
     border-radius: 40px;
     color: $white;
     font-size: 21px;
@@ -364,6 +365,7 @@ nav {
             font-size: 52px;
             color: $white;
             margin: 0;
+            font-family: "Proxima Nova Thin";
         }
         .heading {
             color: $white;
@@ -426,9 +428,10 @@ nav {
 
                 .title {
                     margin-top: 0;
-                    color: $main-blue;
+                    color: #29234a;
                     font-size: 21px;
                     line-height: 0.857;
+                    font-family: "Proxima Nova Light";
 
                     @media (min-width: 768px) {
                         text-align: left;
@@ -489,6 +492,8 @@ nav {
         .title {
             display: block;
             margin: 0 0 20px 0;
+            color: #1e1841;
+            font-family: "Proxima Nova Light";
 
             @media (min-width: 768px) {
                 margin: 0;
@@ -516,7 +521,7 @@ nav {
                 background: none;
             }
             a {
-                color: $textgrey;
+                color: #3c3c3c;
                 margin: 5px 0;
                 transition: all .5s;
                 font-size: 15px;
@@ -639,16 +644,16 @@ nav {
         float: left;
         width: 100%;
         text-align: center;
-        margin-top:105px;
+        margin-top:70px;
         margin-bottom: 60px;
         .title1{
             font-size: 43px;
             color: $main-blue;
-            font-weight: 700;
         }
         .title {
             font-size: 26px;
             color: $main-blue;
+            font-family: "Proxima Nova Light";
 
             @media (min-width: 768px) {
                 font-size: 36px;
@@ -667,7 +672,7 @@ nav {
         .title {
             font-size: 26px;
             color: $main-blue;
-            margin: 0 0 60px 0;
+            margin: 0 0 50px 0;
             font-family: "Proxima Nova Light";
 
             @media (min-width: 768px) {
@@ -761,6 +766,10 @@ nav {
         }
         .button {
             margin: 30px 10px;
+            padding: 3px 50px;
+            @media (max-width: 400px) {
+                font-size: 14px;
+            }
         }
 
         .main-form-area {
@@ -778,7 +787,7 @@ nav {
                 float: right;
                 font-size: 16px;
                 margin: 0 15px;
-                padding: 10px 40px;
+                padding: 7px 50px;
             }
         }
     }
@@ -1138,6 +1147,9 @@ nav {
                     position: relative;
                     float: left;
                     width: 100%;
+                    hr{
+                        border-color: #737373;
+                    }
 
                     .more-button {
                         position: absolute;
@@ -1155,21 +1167,27 @@ nav {
                     float: left;
                     width: 100%;
                     text-align: center;
-                    margin-top: 50px;
-
+                    margin-top: 40px;
+                        h4{
+                            color: $main-blue;
+                        }
                     .button {
                         background: $main-blue;
                     }
 
                     dl {
                         font-size: 16px;
-                        margin-top: 40px;
+                        margin-top: 20px;
                         color:#1e1841;
                         font-family: "Proxima Nova Light";
-
-
+                        dt
+                        {
+                            font-size: 20px !important;
+                            font-weight: 700!important;
+                            font-family: "Proxima Nova Bold" !important;
+                        }
                         dt, dd {
-                            margin-bottom: 20px;
+                            margin-bottom: 5px;
                             color:#1e1841;
 
                         }
@@ -1185,6 +1203,13 @@ nav {
                         font-weight: 700;
                         margin-top: 60px;
                         margin-bottom: 80px;
+                        font-size:24px;
+                        #count{
+                            display:inline-block;
+                            color: $main-blue;
+                            font-weight: 700;
+                            font-size:24px;
+                        }
                     }
                 }
             }
@@ -1210,6 +1235,7 @@ nav {
                         .title {
                             color: $main-red;
                             font-size: 21px;
+                            font-family: "Proxima Nova Light";
                         }
                     }
                 }
@@ -1218,6 +1244,9 @@ nav {
                     position: relative;
                     float: left;
                     width: 100%;
+                    hr{
+                        border-color:$hrgrey;
+                    }
 
                     .more-button {
                         position: absolute;
@@ -1280,6 +1309,9 @@ nav {
                     position: relative;
                     float: left;
                     width: 100%;
+                    hr{
+                        border-color:$hrgrey;
+                    }
 
                     .more-button {
                         position: absolute;
@@ -1301,6 +1333,46 @@ nav {
                     .button {
                         background: $main-green;
                         margin-bottom: 70px;
+                    }
+                    #myModal-contact1{
+                        .modal-dialog{
+                            @media (min-width: 768px){
+                            width: 900px;
+                            margin: 100px auto;
+                        }
+                            .modal-content{
+                                .main-content{
+                                    padding-bottom:0;
+                                    .tel-title{
+                                        text-align: center;
+                                        color: #c92127;
+                                        font-weight: 700;
+                                    }
+                                    .button{
+                                        font-size: 15px;
+                                        padding: 7px 52px;
+                                        border: none;
+                                        background: #c92127;
+                                        border-radius: 40px;
+                                        color: #FFF;
+                                        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+                                        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+                                        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
+                                        &:hover {
+                                            background: #e03037;
+                                            -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+                                            -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+                                            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+                                        }
+                                    }
+                                    textarea{
+                                        resize: none;
+                                    }
+                                }
+                            }
+                        }
+
                     }
                 }
             }
@@ -1349,7 +1421,9 @@ nav {
                     position: relative;
                     float: left;
                     width: 100%;
-
+                    hr{
+                        border-color:$hrgrey;
+                    }
                     .more-button {
                         position: absolute;
                         top: 9px;
@@ -1582,7 +1656,14 @@ nav {
 
         #fonctionnalites {
             .first-section {
-                background: #f9f9f9;
+                background: rgba(255,255,255,1);
+                background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(252,252,252,1) 55%, rgba(242,242,242,1) 79%, rgba(242,242,242,1) 100%);
+                background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(255,255,255,1)), color-stop(55%, rgba(252,252,252,1)), color-stop(79%, rgba(242,242,242,1)), color-stop(100%, rgba(242,242,242,1)));
+                background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(252,252,252,1) 55%, rgba(242,242,242,1) 79%, rgba(242,242,242,1) 100%);
+                background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(252,252,252,1) 55%, rgba(242,242,242,1) 79%, rgba(242,242,242,1) 100%);
+                background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(252,252,252,1) 55%, rgba(242,242,242,1) 79%, rgba(242,242,242,1) 100%);
+                background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(252,252,252,1) 55%, rgba(242,242,242,1) 79%, rgba(242,242,242,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0 );
                 padding-bottom: 200px;
             }
             .section-box {
@@ -1591,6 +1672,9 @@ nav {
                 .title {
                     text-align: left;
                     margin-bottom: 30px;
+                }
+                p{
+                    text-align: left!important;
                 }
             }
 
@@ -1718,7 +1802,10 @@ nav {
                     border-left: 1px solid #c8c8c8;
                 }
                 .text-area {
-                    padding: 40px;
+                    padding: 60px;
+                    @media (max-width: 566px) {
+                        padding: 20px;
+                    }
 
                     .title {
                         color: $main-blue;
@@ -1732,6 +1819,15 @@ nav {
             }
         }
         #communication {
+            .main-content{
+                p{
+                    @media (min-width: 568px) {
+                        width: 70%;
+                        margin: 0 auto;
+                    }
+
+                }
+            }
             .second-section {
                 background: #f9f9f9;
                 padding: 20px 0;
@@ -1745,7 +1841,7 @@ nav {
                 }
             }
             .images-box {
-                margin-top: 20px;
+                margin: 35px;
 
                 img {
                     padding: 5px;
@@ -1799,13 +1895,13 @@ nav {
                         border-left: 1px solid #c8c8c8;
                     }
                     .section-boxes-inner {
-                        padding: 0 50px;
+                        padding: 0 47px;
                     }
                 }
             }
 
             .fourth-section {
-                padding: 70px 0;
+                padding: 60px 0;
 
                 .section-boxes {
                     text-align: center;
@@ -1844,7 +1940,8 @@ nav {
                     }
                     .title {
                         color: $main-blue;
-                        font-weight: 700
+                        font-weight: 300;
+                        font-family: "Proxima Nova Light";
                     }
                     p {
                         font-size: 16px;
@@ -1871,11 +1968,22 @@ nav {
                 float: left;
                 width: 100%;
                 padding: 50px 0;
+                .colpaddpin{
+                    @media (min-width: 1200px) {
+                        padding: 0 90px;
+                    }
 
+                }
+                p{
+                    font-size: 16px;
+                    text-align: left;
+
+                }
                 .title {
                     margin-top: 0;
                     color: $main-blue;
-                    font-weight: 700;
+                    font-family: "Proxima Nova Light";
+                    text-align: left;
                 }
 
                 img {
@@ -1958,6 +2066,9 @@ nav {
             .third-section {
                 .section-boxes {
                     margin-top: 80px;
+                    h3{
+                        color: $main-blue;
+                    }
                 }
                 .section-boxes>div {
                     text-align: center;
@@ -1973,7 +2084,9 @@ nav {
             .fourth-section {
                 background: #f9f9f9;
                 margin: 100px 0;
-
+                    p{
+                        font-size: 16px;
+                    }
                 .section-boxes {
                     margin-top: 0;
 
@@ -1993,7 +2106,7 @@ nav {
                 text-align: center;
 
                 .title {
-                    font-weight: 700;
+                    font-weight: 300;
                 }
                 img {
                     margin-top: 50px;
@@ -2001,6 +2114,11 @@ nav {
             }
         }
         #demo {
+            .main-content{
+                p{
+                    text-align: center;
+                }
+            }
             .form-area {
                 @media (min-width: 768px) {
                     border-left: 1px solid #e6e6e6;
@@ -2050,6 +2168,16 @@ nav {
             background: #f9f9f9;
 
             #first {
+                .first-section{
+                    background: rgba(255,255,255,1);
+                    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(55%, rgba(255,255,255,1)), color-stop(74%, rgba(255,255,255,1)), color-stop(100%, rgba(242,242,242,1)));
+                    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0 );
+                }
                 .page-heading {
                     margin-top: 60px;
 
@@ -2114,7 +2242,16 @@ nav {
             }
 
             #enterprise {
-
+                .first-section{
+                    background: rgba(255,255,255,1);
+                    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(55%, rgba(255,255,255,1)), color-stop(74%, rgba(255,255,255,1)), color-stop(100%, rgba(242,242,242,1)));
+                    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0 );
+                }
                 // REMOVE THIS CLASS AFTER CHANGE
                 .remove-me {
                     text-align: center;
@@ -2128,18 +2265,36 @@ nav {
 
                     .main-content {
                         padding: 80px 0 120px 0;
-
+                        p{
+                            text-align: center!important;
+                        }
                         .title {
                             font-weight: 700;
                         }
                         .box-grid {
                             margin-top: 100px;
+                            h2{
+                                color:$main-blue;
+                            }
+                            p{
+                                text-align: center!important;
+                            }
                         }
                     }
                 }
             }
 
             #premium {
+                .first-section{
+                    background: rgba(255,255,255,1);
+                    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(55%, rgba(255,255,255,1)), color-stop(74%, rgba(255,255,255,1)), color-stop(100%, rgba(242,242,242,1)));
+                    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 74%, rgba(242,242,242,1) 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0 );
+                }
                 .second-section {
                     background: $white;
 
@@ -2149,8 +2304,17 @@ nav {
                         .title {
                             font-weight: 700;
                         }
+                        p{
+                            text-align: center!important;
+                        }
                         .box-grid {
                             margin-top: 100px;
+                            h2{
+                                color:$main-blue;
+                            }
+                            p{
+                                text-align: center!important;
+                            }
                         }
                     }
                 }
@@ -2291,9 +2455,13 @@ nav {
             }
         }
         .subpage-header {
-            margin-bottom: 40px;
+            margin-bottom: 30px;
+            margin-top: 0;
         }
         .main-content {
+            li{
+                margin-bottom: 10px;
+            }
 
             .title {
                 margin-top: 60px;
@@ -2347,6 +2515,10 @@ nav {
         }
     }
     &.page-entreprise {
+        .title{
+            font-size: 24px;
+            font-family: "Proxima Nova";
+        }
         .page-header {
             background: url(../img/section-background.png) no-repeat center center;
             -webkit-background-size: cover;
@@ -2374,7 +2546,15 @@ nav {
 
     }
     &.page-sav {
+            h2,h3{
+                font-weight: 300!important;
+                font-size: 32px !important;
+                font-family: "Proxima Nova Light";
 
+            }
+        p{
+            font-size: 16px!important;
+        }
         .page-header {
             background: url(../img/section-background.png) no-repeat center center;
             -webkit-background-size: cover;
@@ -2512,6 +2692,34 @@ nav {
     }
     &.page-ecommunication {
 
+            #diffusion{
+                .third-section{
+                    p{
+                        color: #3c3c3c;
+                        font-size: 18px;
+                        text-align: justify;
+                        width: 70%;
+                        margin: 0 auto;
+                        @media (max-width: 560px) {
+                            width: 100%;
+                        }
+                    }
+                }
+                .full-image{
+                    margin-bottom: 5px;
+                }
+
+            }
+        #bannieres{
+            .second-section{
+                margin-bottom: 0;
+            }
+        }
+        #contact{
+            .second-section{
+                margin-bottom: 0;
+            }
+        }
         .page-header {
             background: url(../img/ecommunication/page-background.jpg) no-repeat center center;
             -webkit-background-size: cover;
@@ -2563,16 +2771,24 @@ nav {
         }
         .first-section, .third-section {
             .title {
-                font-weight: 700;
+                font-weight: 300;
+                font-family: "Proxima Nova Light";
+                color: $main-blue;
+
             }
         }
         .second-section {
             background: #f5f5f5;
             padding: 60px 0;
             margin-bottom: 80px;
-
+                p{
+                    font-size: 16px;
+                }
             .title {
-                font-weight: 700;
+                font-weight: 300;
+                color: $main-blue;
+                font-family: "Proxima Nova Light";
+
             }
         }
         .form-area {
@@ -2804,7 +3020,7 @@ nav {
             float: left;
             width: 100%;
             background: #303030;
-            padding: 10px 0;
+            padding: 6px 0;
 
             p, a {
                 color: #777777;
